@@ -8,6 +8,19 @@ div p{
     border: solid 3px grey;
     margin-top: 20px;
 }
+.mygtukas{
+    margin: 5px;
+    width: 190px;
+    height: 80px;
+}
+.right{
+    position: absolute;
+    right: 50%;
+}
+.left{
+    position: absolute;
+    left: 50%;
+}
 
 
 
