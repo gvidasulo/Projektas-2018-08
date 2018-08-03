@@ -25,9 +25,55 @@
 
         <main>
 
-            
+            <!-- slider pradzia -->
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="image/foto-1.jpg" style="width:1000px">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="image/foto-2.jpg" style="width:1000px">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="image/foto-3.jpg" style="width:1000px">
+                </div>
+
+                </div>
+                <br>
+                <div style="text-align:center">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+            </div>
+            <!-- slider pabaiga -->
 
         </main>
 
+        <!-- slider js prazdia -->
+        <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3500); // Change image every 3.5 seconds
+        }
+        </script>
+        <!-- slider js pabaiga -->
     </body>
 </html>
