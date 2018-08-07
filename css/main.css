@@ -4,3 +4,42 @@
 .auktis-1000 {
     height: 1000px;
 }
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-225 {
+    height: 225px;
+}
+body{
+    background-color: #f0f0f0;
+}
+.foto {
+    height: 150px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.padding-0{
+    padding: 0;
+}
+footer {
+    background-color: #959595;
+}
+footer div{
+    position: absolute;
+    top: 65%;
+}
+.prekes_tekstas{
+    transition: none;
+    display: block;
+    color: #959595;
+    padding: 3px 0;
+}
+.prekes-kaina{
+    font-weight: 600;
+    color: #464646;
+}
