@@ -1,56 +1,92 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/master.css">
+<html lang="lt" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <!-- headeris visur bus toks pat ! -->
-        <header>
+        <div class="container">
+            <header class="row">
+                <div class="col-md-12 aukstis-100 padding-0">
+                    <header class="navbar navbar-expand-sm bg-dark navbar-dark">
 
-            <img src="image/logo.png" alt="" class="logo">
-            <div class="">
-                <nav class="menu">
-                    <ul>
-                        <li><a href="#">Pagrindinsi</a></li>
-                        <li><a href="#">Kontaktai</a></li>
-                        <li><a href="#">Paslaugos</a></li>
-                        <li><a href="#">Servisas</a></li>
-                    </ul>
-                </nav>
-            </div>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="image/logo.png" alt="logo" width="60">
+                          </a>
+                          <ul class="navbar-nav">
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="results.html">Produktai</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">Paslaugos</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">Kontaktai</a>
+                                  </li>
+                            </ul>
 
-        </header>
-        <!-- headerio pabaiga  -->
+                    </header>
+                </div>
+            </header>
+            <main class="row">
+                <div class="col-md-12 aukstis-500">
+                    <!-- karuseles pradzia -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="image/foto-1.jpg" alt="Pirma nuotrauka">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="image/foto-2.jpg" alt="Antra nuotrauka">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="image/foto-3.jpg" alt="Trecia nuotrauka">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Atgal</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Kitas</span>
+                        </a>
+                    </div>
+                    <!-- karuseles pabaiga -->
+                    <form class="" action="#" method="GET">
 
-        <main>
-
-            <!-- slider pradzia -->
-
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                  <img src="image/foto-1.jpg" style="width:1000px">
+                        <div class="input-group input-group-lg pt-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-lg">Iveskite ieskomos prekes pavadinima</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">PAIESKA</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
 
-                <div class="mySlides fade">
-                  <img src="image/foto-2.jpg" style="width:1000px">
-                </div>
+            </main>
+        </div>
 
-                <div class="mySlides fade">
-                  <img src="image/foto-3.jpg" style="width:1000px">
-                </div>
 
-                </div>
-                <br>
-                <div style="text-align:center">
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-            </div>
-            <!-- slider pabaiga -->
-
-            <h2 class="kategorijos">Pasirinkite norimas prekes is musu siulomu kategoriju</h2>
+            <footer class="row mt-2">
+                    <div class="col-md-12 aukstis-100 d-flex justify-content-center padding-0">
+                        <img src="image/logo.png" alt="logo" width="60" height="60" class="float-left pt-2">
+                        <div class="float-left">
+                            <h6>&copy; 2018 UAB GVIDAS LT</h6>
+                        </div>
+                        <div class="float-none"></div>
+                    </div>
+            </footer>
 
 
 
@@ -58,30 +94,16 @@
 
 
 
-        </main>
+        </div> <!-- container end -->
 
-        <!-- slider js prazdia -->
-        <script>
-        var slideIndex = 0;
-        showSlides();
 
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-               slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 3500); // Change image every 3.5 seconds
-        }
-        </script>
-        <!-- slider js pabaiga -->
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="libs/js/bootstrap.min.js"></script>
     </body>
 </html>

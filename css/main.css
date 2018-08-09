@@ -16,6 +16,9 @@
 .aukstis-225 {
     height: 225px;
 }
+.aukstis-500 {
+    height: 450px;
+}
 body{
     background-color: #f0f0f0;
 }
@@ -47,7 +50,19 @@ footer div{
     color: #FFFFFF;
     text-decoration: none;
 }
-
+.padding-0 {
+    padding: 0;
+}
+.sonine_spalva {
+    background-color: #E3E3E3;
+}
+.soninis_menu a{
+    color: #464646;;
+    text-decoration: none;
+}
+.soninis_menu {
+    color: #7cb5dc;
+}
 
 /* Prekiu overlay */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600;);
