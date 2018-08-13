@@ -28,6 +28,12 @@
 .aukstis-400 {
     height: 400px;
 }
+.aukstis-600 {
+    height: 600px;
+}
+.aukstis-700 {
+    height: 700px;
+}
 body{
     background-color: #f0f0f0;
 }
