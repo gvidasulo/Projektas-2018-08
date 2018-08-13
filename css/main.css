@@ -84,6 +84,28 @@ footer div{
 .soninis_menu {
     color: #7cb5dc;
 }
+.paslaugos_foto {
+    box-shadow: 10px;
+}
+.tekstas_ant_foto {
+    position: relative;
+    font-family: Arial;
+}
+.teksto_blokas {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: grey; */
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
 
 /* prekiu page */
 .prekiu-slider {
