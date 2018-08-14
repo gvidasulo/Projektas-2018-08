@@ -1,35 +1,10 @@
-<!DOCTYPE html>
-<html lang="lt" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="libs/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
+<?php
+include_once('header.php');
+ ?>
         <div class="container">
-            <header class="row">
-                <div class="col-md-12 aukstis-100 padding-0">
-                    <header class="navbar navbar-expand-sm bg-dark navbar-dark">
-
-                        <a class="navbar-brand" href="index.html">
-                            <img src="image/logo.png" alt="logo" width="60">
-                          </a>
-                          <ul class="navbar-nav">
-                                  <li class="nav-item">
-                                      <a class="nav-link" href="results.html">Produktai</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link" href="paslaugos.html">Paslaugos</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link" href="contacts.html">Kontaktai</a>
-                                  </li>
-                            </ul>
-
-                    </header>
-                </div>
-            </header>
+            <?php
+            include_once('top-navbar.php');
+             ?>
             <main class="row">
                 <div class="col-md-12 ">
                     <div class="row">
@@ -110,18 +85,6 @@
             </main>
         </div>
 
-        <div class="container-fluid"> <!-- cointainer start -->
-
-            <footer class="row mt-2">
-                <div class="col-md-12 aukstis-100 d-flex justify-content-center padding-0">
-                    <img src="image/logo.png" alt="logo" width="60" height="60" class="float-left pt-2">
-                    <div class="float-left">
-                        <h6>&copy; 2018 UAB GVIDAS LT</h6>
-                    </div>
-                    <div class="float-none"></div>
-                </div>
-            </footer>
-
-        </div> <!-- container end -->
-    </body>
-</html>
+        <?php
+        include_once('footer.php');
+         ?>

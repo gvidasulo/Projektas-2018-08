@@ -1,57 +1,14 @@
-<!DOCTYPE html>
-<html lang="lt" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <link rel="stylesheet" href="libs/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
+<?php
+include_once('header.php');
+ ?>
         <div class="container">
-            <header class="row">
-                <div class="col-md-12 aukstis-100 padding-0">
-                    <header class="navbar navbar-expand-sm bg-dark navbar-dark">
-
-                        <a class="navbar-brand" href="index.html">
-                            <img src="image/logo.png" alt="logo" width="60">
-                          </a>
-
-                          <ul class="navbar-nav">
-                            <li class="nav-item">
-                              <a class="nav-link" href="results.html">Produktai</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Paslaugos</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="contacts.html">Kontaktai</a>
-                            </li>
-                          </ul>
-
-                    </header>
-                </div>
-            </header>
+            <?php
+            include_once('top-navbar.php');
+             ?>
             <main class="row">
-                <div class="col-md-2 auktis-1000 border sonine_spalva mr-3">
-                    <nav class="nav flex-column soninis_menu">
-                      <a class="nav-link disabled">&#10148; TV IMTUVAI</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 1</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 2</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 3</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 4</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 5</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 6</a>
-                      <a class="nav-link disabled">&#10148; HDD</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 7</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 8</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 9</a>
-                      <a class="nav-link disabled">&#10148; TELEVIZORIAI</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 10</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 11</a>
-                      <a class="nav-link nav_papildymas" href="#">Preke 12</a>
-                    </nav>
-                </div>
+                <?php
+                include_once('left-navbar.php');
+                 ?>
                 <div class="col-md auktis-1000">
                     <div class="row">
                       <div class="col-md-6 aukstis-400">
@@ -117,23 +74,6 @@
             </main>
         </div>
 
-        <div class="container-fluid">
-
-            <footer class="row mt-2 pilka">
-                <div class="col-md-12 aukstis-100 d-flex justify-content-center">
-                    <img src="image/logo.png" alt="logo" width="60" height="60" class="float-left pt-2">
-                    <div class="float-left">
-                        <h6>&copy; 2018 UAB GVIDAS LT</h6>
-                    </div>
-                    <div class="float-none"></div>
-                </div>
-            </footer>
-        </div>
-
-
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="libs/js/bootstrap.min.js"></script>
-    </body>
-</html>
+        <?php
+        include_once('footer.php');
+         ?>
