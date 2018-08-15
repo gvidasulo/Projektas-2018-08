@@ -43,10 +43,10 @@ include_once('header.php');
                       </div>
                       <div class="col-md-6 aukstis-400 prekiu-tekstas">
                           <?php include_once('prekiu-info.php'); ?>
-                          <h2><?php echo $preke1[2]; ?></h2>
-                          <h4>Kaina: <?php echo $preke1[3]; ?> &euro;</h4>
-                          <h6><?php echo $preke1[5]; ?> | Kiekis: <?php echo $preke1[4]; ?></h6>
-                          <p><?php echo $preke1Aprasymas[0]; ?></p>
+                          <h2><?php echo $preke3[2]; ?></h2>
+                          <h4>Kaina: <?php echo $preke3[3]; ?> &euro;</h4>
+                          <h6><?php echo $preke3[5]; ?> | Kiekis: <?php echo $preke3[4]; ?></h6>
+                          <p><?php echo $preke3Aprasymas[0]; ?></p>
                           <button class="mygtukas"><i class="far fa-money-bill-alt"></i> Pirkti</button>
                       </div>
                     </div>
@@ -56,10 +56,10 @@ include_once('header.php');
                           <table class="table">
                           <tbody>
                               <?php
-                              for ($i=0; $i < count($preke1ParametraiK) ; $i++) {
+                              for ($i=0; $i < count($preke3ParametraiK) ; $i++) {
                                   echo "<tr>";
-                                  echo "<th scope='row'>" . $preke1ParametraiK[$i] . "</th>";
-                                  echo "<td>" . $preke1ParametraiD[$i] . "</td>";
+                                  echo "<th scope='row'>" . $preke3ParametraiK[$i] . "</th>";
+                                  echo "<td>" . $preke3ParametraiD[$i] . "</td>";
                                   echo "</tr>";
                               }
                                ?>

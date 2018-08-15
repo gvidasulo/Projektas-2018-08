@@ -12,10 +12,10 @@ include_once('header.php');
                           <div class="row">
                             <div class="col-md-12 aukstis-200">
                                 <div class="tekstas_ant_foto">
-                                  <img src="image/paslaugos/570x200.jpeg" alt="" class="img-fluid">
+                                  <img src="image/paslaugos/foto1.jpeg" alt="" class="img-fluid">
                                   <div class="teksto_blokas">
-                                    <h4>Foto 1</h4>
-                                    <p>Labai grazus tekstas</p>
+                                    <h4>Visada pasiruose</h4>
+                                    <p>Naujodame naujausias technologijas ir esame pasiruose isukiams.</p>
                                   </div>
                                 </div>
                             </div>
@@ -23,10 +23,10 @@ include_once('header.php');
                           <div class="row">
                             <div class="col-md-6 aukstis-400">
                                 <div class="tekstas_ant_foto">
-                                  <img src="image/paslaugos/285x400.jpeg" alt="" class="img-fluid">
+                                  <img src="image/paslaugos/preke2.jpeg" alt="" class="img-fluid">
                                   <div class="teksto_blokas">
-                                    <h4>Foto 2</h4>
-                                    <p>Labai grazus tekstas</p>
+                                    <h4>Elegantiski</h4>
+                                    <p>Esame elegantika firma</p>
                                   </div>
                                 </div>
                             </div>
@@ -34,19 +34,19 @@ include_once('header.php');
                                 <div class="row">
                                   <div class="col-md-12 aukstis-200">
                                       <div class="tekstas_ant_foto">
-                                        <img src="image/paslaugos/285x200.jpeg" alt="" class="img-fluid">
+                                        <img src="image/paslaugos/foto3.jpeg" alt="" class="img-fluid">
                                         <div class="teksto_blokas">
-                                          <h4>Foto 3</h4>
-                                          <p>Labai grazus tekstas</p>
+                                          <h4>Saugumas</h4>
+                                          <p>Saugumas pirmoje vietoje !</p>
                                         </div>
                                       </div>
                                   </div>
-                                  <div class="col-md-12 aukstis-200 bg-info p-0">
+                                  <div class="col-md-12 aukstis-200 p-0">
                                       <div class="tekstas_ant_foto">
-                                        <img src="image/paslaugos/570x200.jpeg" alt="" class="">
+                                        <img src="image/paslaugos/foto4.jpeg" alt="" class="">
                                         <div class="teksto_blokas">
-                                          <h4>Foto 4</h4>
-                                          <p>Labai grazus tekstas</p>
+                                          <h4>Greiti</h4>
+                                          <p>Pasiruose reguoti greitai</p>
                                         </div>
                                       </div>
                                   </div>
@@ -58,10 +58,10 @@ include_once('header.php');
                           <div class="row">
                             <div class="col-md-12 aukstis-400">
                                 <div class="tekstas_ant_foto">
-                                  <img src="image/paslaugos/570x400.jpeg" alt="" class="img-fluid">
+                                  <img src="image/paslaugos/foto5.jpeg" alt="" class="img-fluid">
                                   <div class="teksto_blokas">
-                                    <h4>Foto 5</h4>
-                                    <p>Labai grazus tekstas</p>
+                                    <h4>Serviai</h4>
+                                    <p>Musu serviai yra patys greiciausi ir galingiausi baltijos salyse !</p>
                                   </div>
                                 </div>
                             </div>
@@ -70,10 +70,10 @@ include_once('header.php');
                             <div class="col-md-6"></div>
                             <div class="col-md-6 aukstis-200">
                                 <div class="tekstas_ant_foto">
-                                  <img src="image/paslaugos/285x200.jpeg" alt="" class="img-fluid">
+                                  <img src="image/paslaugos/foto6.jpeg" alt="" class="img-fluid">
                                   <div class="teksto_blokas">
-                                    <h4>Foto 6</h4>
-                                    <p>Labai grazus tekstas</p>
+                                    <h4>Bendradarbiavimas</h4>
+                                    <p>Esame pasiruose bendradarbiauti</p>
                                   </div>
                                 </div>
                             </div>
