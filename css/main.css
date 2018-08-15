@@ -44,6 +44,18 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.foto_didesne {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.atstumimas {
+    padding-top: 50px;
+}
+.top_preke {
+    text-align: center;
+}
 footer {
     background-color: #959595;
 }
@@ -316,3 +328,47 @@ footer div{
   opacity: 1;
 }
 /* baigiasi prekiu overlay */
+.didesnis_tekstas {
+    font-size: 20px;
+}
+
+
+
+/* <a href="preke-1.php" class="col-md-4 aukstis-225 border-top border-right border-bottom snip1573 pt-2">
+    <img src="image/preke1.png" class="img-fluid foto" alt="Responsive image">
+    <span class="prekes_tekstas">Mx-10 TV IMTUVAS</span>
+    <span class="prekes-kaina">58.48 &euro;</span>
+    <figcaption> <h3>Apie preke</h3> </figcaption>
+</a>
+<a href="#" class="col-md-4 aukstis-225 border-top border-right border-bottom snip1573 pt-2">
+    <img src="image/preke2.jpg" class="img-fluid foto" alt="Responsive image">
+    <span class="prekes_tekstas">Mx-10 TV IMTUVAS</span>
+    <span class="prekes-kaina">58.48 &euro;</span>
+    <figcaption> <h3>Apie preke</h3> </figcaption>
+</a>
+<a href="#" class="col-md-4 aukstis-225 border-top border-bottom snip1573 pt-2">
+    <img src="image/preke3.jpg" class="img-fluid foto" alt="Responsive image">
+    <span class="prekes_tekstas">Mx-10 TV IMTUVAS</span>
+    <span class="prekes-kaina">58.48 &euro;</span>
+    <figcaption> <h3>Apie preke</h3> </figcaption>
+</a>
+</div>
+<div class="row">
+  <a href="#" class="col-md-4 aukstis-225 border-right border-bottom snip1573 pt-2">
+      <img src="image/preke4.jpg" class="img-fluid foto" alt="Responsive image">
+      <span class="prekes_tekstas">Mx-10 TV IMTUVAS</span>
+      <span class="prekes-kaina">58.48 &euro;</span>
+      <figcaption> <h3>Apie preke</h3> </figcaption>
+  </a>
+  <a href="#" class="col-md-4 aukstis-225 border-right border-bottom snip1573 pt-2">
+      <img src="image/preke5.jpg" class="img-fluid foto" alt="Responsive image">
+      <span class="prekes_tekstas">Mx-10 TV IMTUVAS</span>
+      <span class="prekes-kaina">58.48 &euro;</span>
+      <figcaption> <h3>Apie preke</h3> </figcaption>
+  </a>
+  <a href="#" class="col-md-4 aukstis-225 border-bottom snip1573 pt-2">
+      <img src="image/preke6.jpg" class="img-fluid foto" alt="Responsive image">
+      <span class="prekes_tekstas">Mx-10 TV IMTUVAS</span>
+      <span class="prekes-kaina">58.48 &euro;</span>
+      <figcaption> <h3>Apie preke</h3> </figcaption>
+  </a> */

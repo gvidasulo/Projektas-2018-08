@@ -1,5 +1,5 @@
 <header class="row">
-    <div class="col-md-12 aukstis-100 padding-0">
+    <div class="col-md-12 pb-3 padding-0">
         <header class="navbar navbar-expand-sm bg-dark navbar-dark">
 
             <a class="navbar-brand" href="index.php">
