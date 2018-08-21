@@ -6,7 +6,7 @@ include_once('header.php');
             include_once('top-navbar.php');
             ?>
             <main class="row">
-                <div class="col-md-12 aukstis-450">
+                <div class="col-md-12">
                     <!-- karuseles pradzia -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -35,17 +35,16 @@ include_once('header.php');
                         </a>
                     </div>
                     <!-- karuseles pabaiga -->
-                    <form class="" action="#" method="GET">
-
-                        <div class="input-group input-group-lg pt-4">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroup-sizing-lg">Iveskite ieskomos prekes pavadinima</span>
-                            </div>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">PAIESKA</button>
-                            </div>
+                    <form action="search.php" method="POST" class="mt-4 mb-4">
+                        <div class="row">
+                          <div class="col-md-10">
+                              <input class="form-control form-control-lg" type="text" placeholder="Ieskomos prekes pavadinimas" name="ieskomaPreke" autofocus>
+                          </div>
+                          <div class="col-md">
+                              <input type="submit" value="ieskoti" class="btn btn-lg btn-primary btn-block">
+                          </div>
                         </div>
+                        <!-- <input type="text" name="ieskomaPreke" autofocus/> -->
                     </form>
                 </div>
 

@@ -42,12 +42,18 @@ include_once('header.php');
                           <!-- karuseles pabaiga -->
                       </div>
                       <div class="col-md-6 aukstis-400 prekiu-tekstas">
-                          <?php include_once('prekiu-info.php'); ?>
-                          <h2><?php echo $prekeTop[2]; ?></h2>
-                          <h4>Kaina: <?php echo $prekeTop[3]; ?> &euro;</h4>
-                          <h6><?php echo $prekeTop[5]; ?> | Kiekis: <?php echo $prekeTop[4]; ?></h6>
+                          <?php
+                          include_once('prekiu-info.php');
+                          include_once('db-prekiu-info.php');
+                          $prekeTop = getPreke(5);
+                          ?>
+                          <h2><?php echo $prekeTop['name']; ?></h2>
+                          <h4>Kaina: <?php echo $prekeTop['price']; ?> &euro;</h4>
+                          <h6>Kiekis: <?php echo $prekeTop['kiekis']; ?></h6>
                           <p><?php echo $prekeTopAprasymas[0]; ?></p>
-                          <button class="mygtukas"><i class="far fa-money-bill-alt"></i> Pirkti</button>
+                          <a href="apmokejimas.php?apmokejimas=<?php echo $prekeTop['id']; ?>">
+                              <button class="mygtukas" type="submit" name="apmokejimas"><i class="far fa-money-bill-alt"></i> Pirkti</button>
+                          </a>
                       </div>
                     </div>
                     <div class="row">
