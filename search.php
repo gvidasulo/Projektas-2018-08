@@ -1,4 +1,6 @@
-<?php include_once ('header.php'); ?>
+<?php
+$title = 'Paieskos rezultatai';
+include_once ('header.php'); ?>
     <div class="container">
         <?php include_once ('top-navbar.php'); ?>
         <main class="row">

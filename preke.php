@@ -1,4 +1,5 @@
 <?php
+$title = 'Prekes numeris ' . $_GET['id'];
 include_once('header.php');
  ?>
         <div class="container">

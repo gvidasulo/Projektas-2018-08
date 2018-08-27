@@ -1,4 +1,5 @@
 <?php
+$title = 'Apmokejimas';
 include_once ('header.php');
  ?>
         <div class="container">

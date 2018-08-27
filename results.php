@@ -1,4 +1,5 @@
 <?php
+$title = 'Visos prekes';
 include_once('header.php');
  ?>
 
@@ -11,7 +12,7 @@ include_once('header.php');
                 <?php
                 include_once('left-navbar.php');
                  ?>
-                 
+
                 <div class="col-md">
                     <div class="row">
                       <div class="col-md padding-0">

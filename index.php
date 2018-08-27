@@ -1,4 +1,5 @@
 <?php
+$title = 'Pagrindinis';
 include_once('header.php');
  ?>
         <div class="container">
@@ -16,13 +17,13 @@ include_once('header.php');
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="image/foto-1.jpg" alt="Pirma nuotrauka">
+                                <img class="d-block w-100" src="image/foto-1.jpg" alt="Pirma nuotrauka" alt="foto 1">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="image/foto-2.jpg" alt="Antra nuotrauka">
+                                <img class="d-block w-100" src="image/foto-2.jpg" alt="Antra nuotrauka" alt="foto 2">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="image/foto-3.jpg" alt="Trecia nuotrauka">
+                                <img class="d-block w-100" src="image/foto-3.jpg" alt="Trecia nuotrauka" alt="foto 3">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
