@@ -8,3 +8,27 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+        <div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="image/svg/Facebook.svg" width="32" height="32">
+            <p><a href="#" target="_blank">Pamekite mus<br>Facebook</a></p>
+        </li>
+        <li>
+            <img src="image/svg/Twitter.svg" width="32" height="32">
+            <p><a href="#" target="_blank">Sekite mus<br>Twitter</a></p>
+        </li>
+        <li>
+            <img src="image/svg/Google+.svg" width="32" height="32">
+            <p><a href="#" target="_blank">Sekite mus<br>Google+</a></p>
+        </li>
+        <li>
+            <img src="image/svg/Linkedin.svg" width="32" height="32">
+            <p><a href="#" target="_blank">Sekite mus<br>LinkedIn</a></p>
+        </li>
+        <li>
+            <img src="image/svg/YouTube.svg" width="32" height="32">
+            <p><a href="#" target="_blank">Pamekite musu kanala<br>YouYube</a></p>
+        </li>
+    </ul>
+</div>

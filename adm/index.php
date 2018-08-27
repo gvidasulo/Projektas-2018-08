@@ -8,7 +8,7 @@ header("location: profile.php");
 <!DOCTYPE html>
 <html>
 <head>
-<title>Login Form in PHP with Session</title>
+<title>Admin panel</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -16,7 +16,7 @@ header("location: profile.php");
 <div id="login">
 <h2>Prisijungimo forma</h2>
 <form action="" method="post">
-<label>Vartotjo vardas :</label>
+<label>Vartotojo vardas :</label>
 <input id="name" name="username" type="text">
 <label>Slaptazodis :</label>
 <input id="password" name="password" type="password">

@@ -11,7 +11,7 @@ include_once('header.php');
                 <?php
                 include_once('left-navbar.php');
                  ?>
-
+                 
                 <div class="col-md">
                     <div class="row">
                       <div class="col-md padding-0">
@@ -28,21 +28,18 @@ include_once('header.php');
                       </div>
                     </div>
 
-                    <div class="row pt-2">
+                    <div class="row">
                       <div class="col-md">
                           <div class="row">
                               <?php
                               include_once('db-prekiu-info.php');
-                              // for ($i=1; $i < 5 ; $i++) {
-                              //     $visosPrekes = getPreke($i);
-                              //     $visosFoto = getImg($i);
-                              //     include ('template-preke.php'); // su include_once neveikia !
-                              // }
                               $rezultatai = getPrekes();
-                              $foto = getImgs();
                               $visosPrekes = mysqli_fetch_assoc($rezultatai);
-                              $visosFoto = mysqli_fetch_assoc($foto);
-                              while ($visosPrekes && $visosFoto) {
+                              // $visosFoto = mysqli_fetch_assoc($foto);
+                              while ($visosPrekes) {
+                                  $foto = getImgs1($visosPrekes['id']);
+                                  $visosFoto = mysqli_fetch_assoc($foto);
+                                  // print_r($visosFoto);
                                   include ('template-preke.php');
                                   $visosPrekes = mysqli_fetch_assoc($rezultatai);
                                   $visosFoto = mysqli_fetch_assoc($foto);
@@ -50,20 +47,22 @@ include_once('header.php');
                                ?>
                           </div>
                       </div>
-                      <div class="col-md-4 atstumimas">
+                      <!-- TOP PREKE  -->
+                      <!-- <div class="col-md-4 atstumimas">
                           <h2 class="top_preke">Musu top preke</h2>
                           <?php
                           $prekeTop = getPreke(5);
                           $prekeTopImg = getImg(5);
                            ?>
-                          <a href="<?php echo $prekeTop['link']; ?>" class="snip1573">
+                          <a href="preke.php?id=<?php echo $prekeTop['id']; ?>" class="snip1573">
                               <img src="image/<?php echo $prekeTopImg['name']; ?>" class="img-fluid foto_didesne" alt="Responsive image">
                               <span class="prekes_tekstas didesnis_tekstas"><?php echo $prekeTop['name']; ?></span>
                               <span class="prekes-kaina didesnis_tekstas"><?php echo $prekeTop['price']; ?> &euro;</span>
                               <figcaption> <h3>Apie preke</h3> </figcaption>
                           </a>
                       </div>
-                    </div>
+                    </div> -->
+                    <!-- TOP PREKE PABAIGA -->
                 </div>
             </main>
         </div>
